@@ -24,8 +24,6 @@
         - <h1>This is for heading tag</h1>
         - <p>This tag is used for paragraph and covers the entire line. It is a blocked-line element</p>
         - <span>span is used for in-line element</span>
-        - <img>this tag is used to add the link of the image no matter that the image is in our local system or from the internet
-        - <video>this is almost similar to img tag</video>
         - br : used for line breaks in the document
         - hr : used for horizontal rule breaks
         - Semantic tags:
@@ -35,4 +33,10 @@
             - article
             - footer
     Bold <b></b>, Italic <i></i> and UNDERLINE <u></u> styles
+13/12/2022
+    - <a href> The <a> tag defines a hyperlink, which is used to link from one page to another.
+    The most important attribute of the <a> element is the href attribute, which indicates the link's destination
+    - <img>this tag is used to add the link of the image no matter that the image is in our local system or from the internet
+    - <video>this is almost similar to img tag</video>
+    - <audio> this is used to add audio to the webpage</audio>
 </pre>        
