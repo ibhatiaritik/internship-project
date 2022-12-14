@@ -5,8 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        td,tr{
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        table{
+            width: 35%;
+            border-collapse: collapse;
+            margin: 10px auto;
+            height: 50%;
+            table-layout: fixed;
+        }
+        body{
+            height: 800px;
+            margin-top: 120px;
+        }
+    </style>
 </head>
 <body>
-    <span></span>
+    <table>
+        <tr>
+            <td rowspan="2" colspan="2">A</td>
+            <td rowspan="4">B</td>
+            <td colspan="2">C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td colspan="2">F</td>
+            <td>G</td>
+        </tr>
+        <tr>
+            <td colspan="2">E</td>
+            <td>H</td>
+            <td colspan="2" rowspan="2">I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="2">N</td>
+            <td>O</td>
+            <td colspan="2">P</td>
+            <td>Q</td>
+        </tr>   
+    </table>
 </body>
 </html>
