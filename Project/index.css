@@ -7,3 +7,15 @@
     font-weight: 700;
     font-size: 24px;
 }
+.logo{
+    display: inline-block;
+    list-style: none;
+}
+ul{
+    /* display: inline-block; */
+    list-style: none;
+}
+button{
+    border: white;
+    border-radius: 2px;
+}
