@@ -65,5 +65,6 @@
     - Practising form and other HTML tags and elements
     - References: https://www.w3schools.com/html/
 16/12/2022
-    - 
+    - Practising HTML elements
+    - References: https://www.w3schools.com/html/
 </pre>        
