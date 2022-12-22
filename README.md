@@ -67,4 +67,9 @@
 16/12/2022
     - Practising HTML elements
     - References: https://www.w3schools.com/html/
+19/12/2022
+    - Started making HTML part of the project
+        - Navbar
+        - Added pictues to the HTML part of the project using <img> tag
+        - Made buttons and many more
 </pre>        
