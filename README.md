@@ -72,4 +72,21 @@
         - Navbar
         - Added pictues to the HTML part of the project using <img> tag
         - Made buttons and many more
+    - Taken reference from https://www.w3schools.com/html/ 
+20/12/2022
+    -  Working on project
+    -  Reference: 1) w3schools.com
+                  2) https://www.javatpoint.com/html-tutorial
+                  3) https://www.youtube.com/codewithharry/
+21/12/2022
+    - Worked on project
+    - CSS
+        - Introduction
+        - Inline Elements
+        - Internal Elements
+        - External Elements
+        - !important Tag
+        - Elements
+        - ID
+        - Classes
 </pre>        
