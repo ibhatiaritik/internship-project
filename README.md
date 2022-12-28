@@ -89,4 +89,27 @@
         - Elements
         - ID
         - Classes
+22/12/2022
+    -CSS combinators
+        -descendent
+        -direct child >
+        -adjacent sibling +
+        -general sibling ~
+        -attr selectors
+    Reference: 
+    -https://www.w3schools.com/css/css_attribute_selectors.asp
+    -pseudo classes - visited, hover , active , link,
+    -pseudo elements - after, before
+23/12/2022
+    -order of preference :  inline> internal>external
+    -inline>id>classes,pseudo-class,attr selector > element , pseudo element
+    -!important (highest priority)
+    => when importing multiple stylesheets, the sheet which is imported later in the head gets higher priority
+    -colors : 
+        -name
+        -hex
+        -rgba
+        -hsla
+26/12/2022
+    
 </pre>        
