@@ -1,6 +1,6 @@
 * {
     color: #ffffff;
-    font-family: "Kumbh Sans", sans-serif;
+    font-family: "Kumbh Sans";
     margin: 0;
     padding: 0;
     list-style: none;
@@ -12,6 +12,7 @@ body{
 .container {
     margin: 0 auto;
     width: 1200px;
+    border: 1px solid white;
 }
 
 nav {
@@ -75,16 +76,15 @@ h1 {
     border: 1px solid #404040;
     background: #404040;
     border-radius: 5px;
-    padding-top: 30px;
-    padding-bottom: 200px;
-    padding-left: 90px;
-    padding-right: 90px;
+    width: 24%;
+    padding: 32px;
 }
 .cards{
+
     display: flex;
     text-align: center;
-    justify-content: space-between;
-    position: absolute;
+    /* justify-content: space-between; */
+    gap: 30px;
 }
 .card-1-style{
     font-size: 24px;
@@ -92,7 +92,36 @@ h1 {
     font-weight: 700;
 }
 .card-1-btn{
+    margin-top: 45px;
     border: 1px solid #27ae60;
+    padding: 14px 48px;
     border-radius: 5px;
     background: #27ae60;
+}
+.card-style{
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+.section-p{
+    font-weight: 400;
+    height: 50px;
+}
+.section-span-1{
+    font-size: 36px;
+    font-weight: 700;
+    height: 40px;
+    margin-bottom: 150px;
+}
+.section-span-2{
+    font-weight: 400;
+    font-size: 16px;
+    /* margin-bottom: 150px; */
+}
+.header-div-2{
+    position: absolute;
+    right: 74px;
+}
+.header-div-1{
+    z-index: 1;
+    height: 384px;
 }
