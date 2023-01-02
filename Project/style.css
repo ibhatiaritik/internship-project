@@ -5,14 +5,15 @@
     padding: 0;
     list-style: none;
 }
-body{
+
+body {
     background-color: #1f1f1f;
 }
 
 .container {
     margin: 0 auto;
     width: 1200px;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 nav {
@@ -72,56 +73,231 @@ h1 {
     padding: 12px 32px;
     background: #27ae60;
 }
-.card-1{
-    border: 1px solid #404040;
-    background: #404040;
-    border-radius: 5px;
-    width: 24%;
-    padding: 32px;
-}
-.cards{
+
+.feature-cards {
 
     display: flex;
     text-align: center;
     /* justify-content: space-between; */
     gap: 30px;
 }
-.card-1-style{
-    font-size: 24px;
-    margin-bottom: 16px;
-    font-weight: 700;
+
+.feature-card {
+    border: 1px solid #404040;
+    background: #404040;
+    border-radius: 5px;
+    width: 24%;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    ;
+    align-items: center;
+    gap: 39px;
 }
-.card-1-btn{
-    margin-top: 45px;
+
+.feature-card-icon {
+    width: 100%;
+    height: 64px;
+}
+
+.card-info {
+    height: 60px;
+}
+
+.wordpress {
+    padding: 32px 23px;
+}
+
+.card-1-style {
+    font-size: 24px;
+    /* margin-bottom: 16px; */
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.feature-btn {
+    /* margin-top: 45px; */
     border: 1px solid #27ae60;
     padding: 14px 48px;
     border-radius: 5px;
     background: #27ae60;
 }
-.card-style{
+
+.card-style {
     font-size: 14px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
+    line-height: 17.36px;
+    margin-bottom: -23px;
 }
-.section-p{
+
+.section-p {
     font-weight: 400;
-    height: 50px;
+    /* height: 50px; */
 }
-.section-span-1{
+
+.feature-price {
     font-size: 36px;
     font-weight: 700;
-    height: 40px;
-    margin-bottom: 150px;
+    /* height: 40px; */
 }
-.section-span-2{
+
+.feature-price-duration {
     font-weight: 400;
     font-size: 16px;
-    /* margin-bottom: 150px; */
 }
-.header-div-2{
+
+.header-div-2 {
     position: absolute;
     right: 74px;
 }
-.header-div-1{
+
+.header-div-1 {
     z-index: 1;
     height: 384px;
+}
+
+.position {
+    position: relative;
+    bottom: 115px;
+}
+
+.header-1 {
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.para-1 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.heading-1 {
+    display: flex;
+}
+
+.div-1 {
+    padding-left: 116px;
+    padding-top: 100px
+}
+
+.para-1,
+.para-2 {
+    line-height: 30px;
+}
+
+.heading-2 {
+    display: flex;
+}
+
+.header-2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    padding-bottom: 40px;
+}
+
+.div-2 {
+    padding-top: 120px;
+}
+
+.para-2 {
+    font-size: 16px;
+    padding-right: 212px;
+}
+
+.page {
+    border: 1px solid #282828;
+    background: #282828;
+}
+
+.para-3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 16px;
+    text-align: center;
+    padding: 44px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.heading-3 {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.cstm {
+    padding-top: 100px;
+    padding-bottom: 60px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+}
+
+.img-3 {
+    padding-top: 30px;
+}
+
+.cstm-name {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.slider {
+    padding-top: 24px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.refund {
+    border: 1px solid #282828;
+    background: #282828;
+    text-align: center;
+}
+
+.money-back {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.unconditional{
+    width: 38%;
+    margin: 0 auto;
+}
+.last-btn{
+    padding-bottom: 100px;
+}
+.footer{
+    padding-top: 107px;
+}
+.footer-logo{
+    padding-left: 120px;
+    padding-right: 80px;
+}
+.footer{
+    display: flex;
+}
+.youtube-logo{
+    padding-right: 32px;
+    margin-bottom: -10px;
+}
+.twitter-logo{
+    padding-right: 32px;
+    margin-bottom: -10px;
+}
+.instagram-logo{
+    padding-right: 32px;
+    margin-bottom: -10px;
+}
+.fb-logo{
+    padding-right: 300px;
+    margin-bottom: -10px;
 }
