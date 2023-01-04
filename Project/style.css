@@ -13,7 +13,7 @@ body {
 .container {
     margin: 0 auto;
     width: 1200px;
-    /* border: 1px solid white; */
+    border: 1px solid white;
 }
 
 nav {
@@ -78,7 +78,6 @@ h1 {
 
     display: flex;
     text-align: center;
-    /* justify-content: space-between; */
     gap: 30px;
 }
 
@@ -91,9 +90,9 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    ;
     align-items: center;
     gap: 39px;
+    z-index: 1;
 }
 
 .feature-card-icon {
@@ -117,7 +116,6 @@ h1 {
 }
 
 .feature-btn {
-    /* margin-top: 45px; */
     border: 1px solid #27ae60;
     padding: 14px 48px;
     border-radius: 5px;
@@ -139,7 +137,6 @@ h1 {
 .feature-price {
     font-size: 36px;
     font-weight: 700;
-    /* height: 40px; */
 }
 
 .feature-price-duration {
@@ -147,14 +144,18 @@ h1 {
     font-size: 16px;
 }
 
-.header-div-2 {
-    position: absolute;
-    right: 74px;
-}
+/* .header-div-2 {
+    position: static;
+    right: 104px; 
+} */
 
 .header-div-1 {
     z-index: 1;
-    height: 384px;
+    /* height: 384px; */
+    background-image: url(./images/header.svg);
+    width: 100%;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .position {
@@ -277,70 +278,52 @@ h1 {
 .last-btn {
     padding-bottom: 100px;
 }
-
-.footer {
-    padding-top: 107px;
-}
-
-.footer-logo {
-    padding-left: 120px;
-    padding-right: 80px;
-}
-
 .footer {
     display: flex;
+    padding: 107px 0px;
+    justify-content: space-between;
+    align-items: center;
 }
-
-.youtube-logo {
-    padding-right: 32px;
-    margin-bottom: -10px;
+.footer-image-section{
+    display: flex;
+    gap: 72px;
 }
-
-.twitter-logo {
-    padding-right: 32px;
-    margin-bottom: -10px;
+.footer-logo{
+    display: flex;
+    gap: 32px;
+    align-items: center;
 }
-
-.instagram-logo {
-    padding-right: 32px;
-    margin-bottom: -10px;
+.input-field{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
-
-.fb-logo {
-    padding-right: 300px;
-    margin-bottom: -10px;
+.footer-img{
+    width: 100%;
 }
 
 .email {
-    padding: 18px 88px 18px 18px;
     border: 1px solid #282828;
     border-radius: 5px;
     background: #282828;
 }
 
-.footer-adjustment {
-    padding-right: 120px;
-}
 
 .submit {
-    padding: 18px 0px 18px 18px;
     border: 1px solid #282828;
     border-radius: 5px;
     background: #282828;
 }
 
-.signup {
-    margin-top: -40px;
-    padding: 20px;
-    margin-left: -20px;
-}
 
 .email-submit {
     border: 1px solid #282828;
     border-radius: 5px;
     background: #282828;
-    margin-bottom: 70px;
-}
+    display: flex;
+    gap: 100px;
+    padding: 20px;  
+} 
 button{
     cursor: pointer;;
 }
