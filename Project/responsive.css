@@ -3,6 +3,12 @@
       max-width: 1320px;
       margin: 0 auto;
     }
+    .menu-btn{
+        display: none;
+    }
+    .proudcloud-logo{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width:1399px) {
@@ -10,13 +16,24 @@
       max-width: 1140px;
       margin: 0 auto;
     }
-
+    .menu-btn{
+        display: none;
+    }
+    .proudcloud-logo{
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width:1199px) {
     .container {
       max-width: 960px;
       margin: 0 auto;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .proudcloud-logo{
+        display: none;
     }
     .feature-cards{
         flex-wrap: wrap;
@@ -65,12 +82,21 @@
     .header-1-image{
         width: 50%;
     }
+    .footer{
+        gap: 268px;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width:991px) {
     .container {
       max-width: 720px;
       margin: 0 auto;
+    }
+    .menu-btn{
+        display: none;
+    }
+    .proudcloud-logo{
+        display: none;
     }
     .navigate{
         width: 107%;
@@ -144,6 +170,112 @@
       max-width: 540px;
       margin: 0 auto;
     }
+    .navigation{
+        display: none;
+    }
+    .proudcloud-logo{
+        display: none;
+    }
+
+
+
+
+    .navigate{
+        width: 107%;
+    }
+    .navigation{
+        padding-left: 100px;
+    }
+    .header{
+        margin-top: 20px; 
+    }
+    .header-div-2{
+        right: -488px;
+    }
+    .header-div-2-1{
+        width: 40%;
+    }
+    .cart{
+        padding-right: 10px;
+    }
+    .header-signin-section{
+        padding-right: 50px;
+    }
+    .navigation{
+        padding-left: 17px;
+    }
+    
+    .header-div-1 {
+        background-size: 500px 1000px;
+        background-position-y: top
+    }
+    .header-body {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .feature-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .div-1 {
+        padding-left: 20px;
+        padding-top: 0px;
+    }
+    .heading-1-img{
+        width: 33%;
+    }
+    .heading-2-img{
+        width: 34%;
+    }
+    .div-2{
+        padding-top: 0px;
+    }
+    .para-2{
+        padding-right: 40px;
+    }
+    .header-1-image{
+        width: 33%;
+    }
+    .para-3{
+        padding: 0px;
+    }
+    .footer-image-section{
+        gap: 38px;
+    }
+    .footer-logo{
+        gap: 13px;
+    }
+    .menu-btn{
+        margin-left: 24px;
+    }
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+    .get-started-btn{
+        display: block;
+        width: 26%;
+        margin: 50px auto 0px auto;
+    }
+    .feature-card{
+        width: 30%;
+    }
+    .paging{
+        display: none;
+    }
+    .page{
+        padding: 0px 62px;
+    }
+    .money-back{
+        width: 46%;
+        margin: 0 auto;
+    }
+    .footer{
+        flex-flow: wrap-reverse;
+        justify-content: center;
+        row-gap: 40px;
+    }
 }
 
 @media only screen and (max-width: 575px) {
@@ -151,4 +283,136 @@
       width: 100%;
       padding: 0px 15px;
     }
-}
+    .navigation{
+        display: none;
+    }
+    .navigate-logo{
+        display: none;
+    }
+    .menu-btn{
+        margin-left: 24px;
+    }
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+    .get-started-btn{
+        display: block;
+        width: 45%; 
+        margin: 50px auto 0px auto;
+    }
+    .feature-card{
+        width: 50%;
+    }
+    .paging{
+        display: none;
+    }
+    .page{
+        padding: 0px 62px;
+    }
+    .money-back{
+        width: 53%;
+        margin: 0 auto;
+    }
+    .footer{
+        flex-flow: wrap-reverse;
+        justify-content: center;
+        row-gap: 40px;
+    }
+    .navigate{
+        width: 107%;
+    }
+    .navigation{
+        padding-left: 100px;
+    }
+    .header{
+        margin-top: 20px; 
+    }
+    .header-div-2{
+        right: -488px;
+    }
+    .header-div-2-1{
+        width: 40%;
+    }
+    .cart{
+        padding-right: 24px;
+    }
+    .header-signin-section{
+        padding-right: 50px;
+    }
+    .navigation{
+        padding-left: 17px;
+    }
+    
+    .header-div-1 {
+        background-size: 500px 1200px;
+        background-position-y: top
+    }
+    .header-body {
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+    }
+    .feature-cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .div-1 {
+        padding-left: 0px;
+        padding-top: 40px;
+        text-align: center;
+    }
+    .heading-1-img{
+        width: 100%;
+    }
+    .heading-2-img{
+        width: 100%;
+    }
+    .div-2{
+        padding-top: 0px;
+        text-align: center;
+    }
+    .para-2{
+        padding-right: 40px;
+    }
+    .header-1-image{
+        width: 100%;
+    }
+    .para-3{
+        padding: 0px;
+    }
+    .footer-image-section{
+        gap: 38px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-logo{
+        align-items: center;
+        gap: 13px;
+    }
+    .heading-1{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .heading-2{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .unconditional {
+        width: 50%
+    }
+    .fo{
+        display: flex;
+    }
+    .footer-logo-img{
+        width: 100%;
+        text-align: center;
+    }
+} 
+
+
+/* git remote add <name> url */
+/* git push <name> branch where you need to push */

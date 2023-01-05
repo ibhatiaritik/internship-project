@@ -280,6 +280,7 @@ h1 {
 }
 .footer {
     display: flex;
+    gap: 350px;
     padding: 107px 0px;
     justify-content: space-between;
     align-items: center;
@@ -325,5 +326,5 @@ h1 {
     padding: 20px;  
 } 
 button{
-    cursor: pointer;;
+    cursor: pointer;
 }
